@@ -9,7 +9,7 @@ z2
 cModel Technology
 dC:/Modeltech_pe_edu_10.4a/Project6
 vadd
-Z0 !s110 1544213610
+Z0 !s110 1544214615
 !i10b 1
 !s100 0V=>o8N]4[C0>Z6SUd<M[0
 I0QNHk0oD[6]:1j9^A9;D;2
@@ -23,14 +23,14 @@ Z4 OP;L;10.4a;61
 r1
 !s85 0
 31
-Z5 !s108 1544213610.000000
+Z5 !s108 1544214615.000000
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v|
 !s101 -O0
 !i113 1
 Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vaddsub32
-R0
+Z7 !s110 1544214616
 !i10b 1
 !s100 a:WiXD_Q5RhI?nIjNM87o0
 IzM3Kn7d2Q7jJkdbUz9kR90
@@ -44,20 +44,20 @@ R4
 r1
 !s85 0
 31
-R5
+Z8 !s108 1544214616.000000
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v|
 !s101 -O0
 !i113 1
 R6
 valu
-Z7 !s110 1544213611
+R7
 !i10b 1
-!s100 _1eh0MFIWWoLKjgngfRob2
-I^^J6<==eOZ]C4o0cPPk:@2
+!s100 g<5>baAd526oI2eNjnYT>2
+I3BQ_iQ8PJCNkbI8m^XFzQ1
 R1
 R2
-w1544210641
+Z9 w1544214423
 8C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v
 FC:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v
 L0 1
@@ -65,20 +65,20 @@ R4
 r1
 !s85 0
 31
-Z8 !s108 1544213611.000000
+R8
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v|
 !s101 -O0
 !i113 1
 R6
 vcla32
-Z9 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z10 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
 R7
 !i10b 1
 !s100 dWT_G8nRFb21hMfc3F[BX1
 IJ4603BQGONcan9]RRdKWo3
 R1
-Z10 !s105 cla32_tb_sv_unit
+Z11 !s105 cla32_tb_sv_unit
 S1
 R2
 R3
@@ -90,19 +90,19 @@ r1
 !s85 0
 31
 R8
-Z11 !s107 cla32.v|C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv|
-Z12 !s90 -reportprogress|300|-work|work|-sv|C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv|
+Z12 !s107 cla32.v|C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv|
 !s101 -O0
 !i113 1
-Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+Z14 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
 vcla32_tb
-R9
+R10
 R7
 !i10b 1
 !s100 QM2:LokBeTKi5`]FUN6=o0
 I3TW:=S:4eX>>OMi;AFB]B0
 R1
-R10
+R11
 S1
 R2
 R3
@@ -114,11 +114,11 @@ r1
 !s85 0
 31
 R8
-R11
 R12
+R13
 !s101 -O0
 !i113 1
-R13
+R14
 vdff32
 R7
 !i10b 1
@@ -136,12 +136,12 @@ r1
 31
 R8
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v|
 !s101 -O0
 !i113 1
 R6
 vdffe32
-R7
+Z15 !s110 1544214617
 !i10b 1
 !s100 d32Flfjc^dB@gHGWUaX_E1
 I=lI67?ODID]hljCO6WU;L2
@@ -155,83 +155,83 @@ R4
 r1
 !s85 0
 31
-R8
+Z16 !s108 1544214617.000000
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v|
 !s101 -O0
 !i113 1
 R6
 vfadd_align
-Z14 !s110 1544213612
+Z17 !s110 1544214618
 !i10b 1
 !s100 ke`o1X<=zL`4@?[MlQo>43
 IG9nO2PJkZR3F96l2c_QWC0
 R1
 R2
 R3
-Z15 8C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
-Z16 FC:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
+Z18 8C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
+Z19 FC:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
 L0 53
 R4
 r1
 !s85 0
 31
-Z17 !s108 1544213612.000000
-Z18 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v|
-Z19 !s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v|
+Z20 !s108 1544214618.000000
+Z21 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v|
+Z22 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v|
 !s101 -O0
 !i113 1
 R6
 vfadd_cal
-R14
+R17
 !i10b 1
 !s100 ]]TcAj6CQn3]kYcKV@ozN0
 IWEmd2EAV3igL0^znXL_;B3
 R1
 R2
 R3
-R15
-R16
+R18
+R19
 L0 139
 R4
 r1
 !s85 0
 31
-R17
-R18
-R19
+R20
+R21
+R22
 !s101 -O0
 !i113 1
 R6
 vfadd_norm
-R14
+R17
 !i10b 1
 !s100 [dcR?Nzk9SRBL7MHWXU8f2
 IRHVQgcXkDb4hlKon0zTKC3
 R1
 R2
 R3
-R15
-R16
+R18
+R19
 L0 187
 R4
 r1
 !s85 0
 31
-R17
-R18
-R19
+R20
+R21
+R22
 !s101 -O0
 !i113 1
 R6
 vfpu
-R7
+R15
 !i10b 1
-!s100 DXKO[bm?^gR2h[19>A9GY2
-Ih;Fedah@l1:PUeoD@K72`0
+!s100 MHdGci9GMMEE=5@_=3`5;0
+Iz1DSUFMEBAM84RKe=D?842
 R1
 R2
-w1544213287
+w1544214555
 8C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v
 FC:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v
 L0 1
@@ -239,14 +239,14 @@ R4
 r1
 !s85 0
 31
-R8
+R16
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v|
 !s101 -O0
 !i113 1
 R6
 viu
-R14
+R15
 !i10b 1
 !s100 87k_2i09G27QDW6CTHk<Y0
 IK]HZZUH:S=GVOil8gC@O]2
@@ -260,20 +260,20 @@ R4
 r1
 !s85 0
 31
-R17
+R16
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v|
 !s101 -O0
 !i113 1
 R6
 viu_control
-R14
+R15
 !i10b 1
-!s100 GW0<UD7>azb7k:QjFHPE@2
-IKlSzi?;N`NzG@MhAL2PlF3
+!s100 dD=>HmoEK]:T:C^LiWP@O1
+Ib<eKlm@>GLV:GKIcT9BI51
 R1
 R2
-w1544210421
+R9
 8C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v
 FC:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v
 L0 1
@@ -281,14 +281,14 @@ R4
 r1
 !s85 0
 31
-R17
+R16
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v|
 !s101 -O0
 !i113 1
 R6
 vmux2x32
-R14
+R17
 !i10b 1
 !s100 Y8S@RC>lAcBfb:>h20;HV0
 IMng:>W0YUKRzJLmU1^^622
@@ -302,14 +302,14 @@ R4
 r1
 !s85 0
 31
-R17
+R16
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v|
 !s101 -O0
 !i113 1
 R6
 vmux2x5
-R14
+R15
 !i10b 1
 !s100 oR@Be>G0IBjNk^BgeO7UX3
 IQIlbbXIO]P]m```>?36Wj1
@@ -323,14 +323,14 @@ R4
 r1
 !s85 0
 31
-R17
+R16
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v|
 !s101 -O0
 !i113 1
 R6
 vmux4x32
-R14
+R17
 !i10b 1
 !s100 7hL24NJ35<YdZCaPO4eIA3
 InC>I0bA[F]CP4]eiQ=WP80
@@ -344,44 +344,44 @@ R4
 r1
 !s85 0
 31
-R17
+R20
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v|
 !s101 -O0
 !i113 1
 R6
 vpipelined_fadder
-R14
+R17
 !i10b 1
 !s100 9S<UJ^PULQIfInX]7d:?e0
 Id9]b4iH6^8>XNQBS:?c>D0
 R1
 R2
 R3
-R15
-R16
+R18
+R19
 L0 1
 R4
 r1
 !s85 0
 31
-R17
-R18
-R19
+R20
+R21
+R22
 !s101 -O0
 !i113 1
 R6
 vpiplined_fpu_iu
-R9
-Z20 !s110 1544213614
+R10
+Z23 !s110 1544214619
 !i10b 1
-!s100 G[OEF5AbGNe=CYRE=O4cO2
-IRoNY7oOWkEYz:QW9K]^;j2
+!s100 di2hT8=PG_AlD[I>:;`OK2
+IJD;8iK6RNfDg[7mMP>XDj2
 R1
-Z21 !s105 piplined_fpu_iu_tb_sv_unit
+Z24 !s105 piplined_fpu_iu_tb_sv_unit
 S1
 R2
-w1544213502
+w1544214596
 8piplined_fpu_iu.v
 Fpiplined_fpu_iu.v
 L0 1
@@ -389,20 +389,20 @@ R4
 r1
 !s85 0
 31
-Z22 !s108 1544213614.000000
-Z23 !s107 piplined_fpu_iu.v|C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv|
-Z24 !s90 -reportprogress|300|-work|work|-sv|C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv|
+Z25 !s108 1544214619.000000
+Z26 !s107 piplined_fpu_iu.v|C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv|
+Z27 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv|
 !s101 -O0
 !i113 1
-R13
+R14
 vpiplined_fpu_iu_tb
-R9
-R20
+R10
+R23
 !i10b 1
 !s100 lhFl2gi43lRm:[][1_MH61
 Ic?eAAKE8bB0@VV?m?m@2[0
 R1
-R21
+R24
 S1
 R2
 R3
@@ -413,56 +413,56 @@ R4
 r1
 !s85 0
 31
-R22
-R23
-R24
+R25
+R26
+R27
 !s101 -O0
 !i113 1
-R13
-vreg_align_cal
 R14
+vreg_align_cal
+R17
 !i10b 1
 !s100 >mKnildP]2@=NX`6JOoKQ2
 I;nPkJn;E?kTCzBO=<gZ0h1
 R1
 R2
 R3
-R15
-R16
+R18
+R19
 L0 96
 R4
 r1
 !s85 0
 31
-R17
-R18
-R19
+R20
+R21
+R22
 !s101 -O0
 !i113 1
 R6
 vreg_cal_norm
-R14
+R17
 !i10b 1
 !s100 aOO25R=zm44IZa0<gde3c3
 I;GDGEOH`XSej6R28iNFDz1
 R1
 R2
 R3
-R15
-R16
+R18
+R19
 L0 151
 R4
 r1
 !s85 0
 31
-R17
-R18
-R19
+R20
+R21
+R22
 !s101 -O0
 !i113 1
 R6
 vregfile
-Z25 !s110 1544213613
+R17
 !i10b 1
 !s100 >Ib1UD3D2^14dGB7@ZSGa1
 IX0;ThlSWGm6S6cLIURRJn0
@@ -476,14 +476,14 @@ R4
 r1
 !s85 0
 31
-Z26 !s108 1544213613.000000
+R20
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v|
 !s101 -O0
 !i113 1
 R6
 vregfile2w
-R25
+R17
 !i10b 1
 !s100 cQA[]mSH0=MX7kU33IDD91
 IX^RFOLXCHE0dCOz8J[9YR1
@@ -497,14 +497,14 @@ R4
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v|
 !s101 -O0
 !i113 1
 R6
 vscdatamem
-R25
+R17
 !i10b 1
 !s100 7GO14hjVO`h?9CKE=DGU;3
 I=A3KX8loEo::gX5gbnahj3
@@ -518,14 +518,14 @@ R4
 r1
 !s85 0
 31
-R26
+R20
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v|
 !s101 -O0
 !i113 1
 R6
 vscinstmem
-R25
+R23
 !i10b 1
 !s100 JW`ef;Q?X]TD7@:OJXHje1
 I^YT9>>0?gl@g[Wbz[PQ4d0
@@ -539,9 +539,9 @@ R4
 r1
 !s85 0
 31
-R26
+R25
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v|
 !s101 -O0
 !i113 1
 R6
@@ -562,7 +562,7 @@ r1
 31
 R5
 !s107 C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v|
-!s90 -reportprogress|300|-work|work|C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v|
 !s101 -O0
 !i113 1
 R6

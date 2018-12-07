@@ -1,203 +1,115 @@
-C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv {1 {vlog -work work -sv C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv
+C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:31 on Dec 07,2018
-vlog -reportprogress 300 -work work -sv C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32_tb.sv 
 -- Compiling module cla32
 -- Compiling module cla32_tb
 
 Top level modules:
 	cla32_tb
-End time: 12:13:31 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:32 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu_control.v 
 -- Compiling module iu_control
 
 Top level modules:
 	iu_control
-End time: 12:13:32 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:33 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile.v 
 -- Compiling module regfile
 
 Top level modules:
 	regfile
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:30 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/addsub32.v 
 -- Compiling module addsub32
 
 Top level modules:
 	addsub32
-End time: 12:13:30 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:32 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x32.v 
 -- Compiling module mux2x32
 
 Top level modules:
 	mux2x32
-End time: 12:13:32 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:30 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/add.v 
 -- Compiling module add
 
 Top level modules:
 	add
-End time: 12:13:30 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:32 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux2x5.v 
 -- Compiling module mux2x5
 
 Top level modules:
 	mux2x5
-End time: 12:13:32 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:31 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/dffe32.v 
 -- Compiling module dffe32
 
 Top level modules:
 	dffe32
-End time: 12:13:31 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:31 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/fpu.v 
 -- Compiling module fpu
 
 Top level modules:
 	fpu
-End time: 12:13:32 on Dec 07,2018, Elapsed time: 0:00:01
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem_tb.sv {1 {vlog -work work -sv C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem_tb.sv
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem_tb.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:33 on Dec 07,2018
-vlog -reportprogress 300 -work work -sv C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem_tb.sv 
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:32 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/mux4x32.v 
 -- Compiling module mux4x32
 
 Top level modules:
 	mux4x32
-End time: 12:13:32 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv {1 {vlog -work work -sv C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:34 on Dec 07,2018
-vlog -reportprogress 300 -work work -sv C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu_tb.sv 
 -- Compiling module piplined_fpu_iu
 -- Compiling module piplined_fpu_iu_tb
 
 Top level modules:
 	piplined_fpu_iu_tb
-End time: 12:13:34 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:31 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v 
--- Compiling module cla32
-
-Top level modules:
-	cla32
-End time: 12:13:31 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:31 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v 
 -- Compiling module dff32
 
 Top level modules:
 	dff32
-End time: 12:13:31 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:30 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v 
--- Compiling module shift
+-- Compiling module cla32
 
 Top level modules:
-	shift
-End time: 12:13:30 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+	cla32
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:32 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v 
 -- Compiling module iu
 
 Top level modules:
 	iu
-End time: 12:13:32 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:33 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v 
--- Compiling module scdatamem
+-- Compiling module shift
 
 Top level modules:
-	scdatamem
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
+	shift
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:33 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v 
--- Compiling module regfile2w
-
-Top level modules:
-	regfile2w
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
-
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:32 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v 
 -- Compiling module pipelined_fadder
 -- Compiling module fadd_align
 -- Compiling module reg_align_cal
@@ -207,40 +119,40 @@ vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/
 
 Top level modules:
 	pipelined_fadder
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:01
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:31 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v 
+-- Compiling module regfile2w
+
+Top level modules:
+	regfile2w
+
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module scdatamem
+
+Top level modules:
+	scdatamem
+
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module alu
 
 Top level modules:
 	alu
-End time: 12:13:31 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v {1 {vlog -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:33 on Dec 07,2018
-vlog -reportprogress 300 -work work C:/Users/luzhi/Documents/GitHub/piplinedCPU/scinstmem.v 
 -- Compiling module scinstmem
 
 Top level modules:
 	scinstmem
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu.v {1 {vlog -work work {C:\Users\luzhi\Documents\GitHub\piplinedCPU\piplined_fpu_iu.v}
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
-Start time: 12:13:33 on Dec 07,2018
-vlog -reportprogress 300 -work work C:\Users\luzhi\Documents\GitHub\piplinedCPU\piplined_fpu_iu.v 
 -- Compiling module piplined_fpu_iu
 
 Top level modules:
 	piplined_fpu_iu
-End time: 12:13:33 on Dec 07,2018, Elapsed time: 0:00:00
-Errors: 0, Warnings: 0
 
 } {} {}}
