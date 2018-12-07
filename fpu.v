@@ -1,5 +1,5 @@
 module fpu (a,b,fc,wf,fd,ein1,clk,clrn,ed,wd,wn,ww,st_ds,e1n,e1w, // fpu 
-			e2n,e2w,e3n,e3w, e1c,e2c,e3c,count_div,count_sqrt,e,ein2);
+			e2n,e2w,e3n,e3w, e1c,e2c,e3c,count_div,count_sqrt,ein2);
 input clk, clrn; // clock and reset 
 input [31:0] a, b; // 32-bit fp numbers 
 input [4:0] fd; // fp dest reg number 
@@ -13,7 +13,6 @@ output [4:0] e1n,e2n,e3n,wn; // reg numbers
 output [1:0] e1c,e2c,e3c; // for testing 
 output e1w,e2w,e3w,ww; // write fp regfile 
 output st_ds; // stall caused by fdiv or fsqrt 
-output e; // ein1 & ?st_ds 
 reg [31:0] wd; 
 reg [31:0] efa,efb; 
 reg [4:0] e1n,e2n,e3n,wn; 
@@ -25,7 +24,6 @@ wire busy_div,stall_div,busy_sqrt,stall_sqrt;
 wire fdiv = fc[2] & fc[1];
 wire fsqrt = fc[2] & fc[1]; 
 assign e1w = e1w0 & ein2; 
-assign e = ein1;
 pipelined_fadder f_add (efa,efb,sub,2'b0,s_add,clk,clrn,e); 
 //pipelined_fmul f_mul (efa,efb,2'b0,s_mul,clk,clrn,e); 
 //fdiv_newton f_div (a,b,2'b0,fdiv, e,clk,clrn,s_div, busy_div, stall_div, count_div, reg_x_div ); 
