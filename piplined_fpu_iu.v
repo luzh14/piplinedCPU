@@ -25,6 +25,6 @@ mux2x32 fwd_f_load_b (qfb,mmo,fwdlb,fb); // forward lwc1 to fp b
 mux2x32 fwd_f_res_a (fa,e3d,fwdfa,dfa); // forward fp res to fp a 
 mux2x32 fwd_f_res_b (fb,e3d,fwdfb,dfb); // forward fp res to fp b 
 fpu fp_unit (dfa,dfb,fc,wf,fd,1'b1,clk,clrn,e3d,wd,wn,ww, 
-			 stl,e1n,e1w,e2n,e2w,e3n,e3w, 
-			 e1c,e2c,e3c,cnt_div,cnt_sqrt,e,1'b1); 
+			 stl,e1n,e1w,e2n,e2w,e3n,e3w,e,1'b1); 
+//a,b,fc,wf,fd,ein1,clk,clrn,ed,wd,wn,ww,st_ds,e1n,e1w,e2n,e2w,e3n,e3w,e,ein2
 endmodule

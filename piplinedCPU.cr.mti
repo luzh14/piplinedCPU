@@ -80,6 +80,13 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	piplined_fpu_iu_tb
 
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module cla32
+
+Top level modules:
+	cla32
+
 } {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/dff32.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
 -- Compiling module dff32
@@ -87,12 +94,12 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	dff32
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/cla32.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module cla32
+-- Compiling module shift
 
 Top level modules:
-	cla32
+	shift
 
 } {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/iu.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -101,12 +108,19 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 Top level modules:
 	iu
 
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/shift.v
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module shift
+-- Compiling module scdatamem
 
 Top level modules:
-	shift
+	scdatamem
+
+} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module regfile2w
+
+Top level modules:
+	regfile2w
 
 } {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/pipelined_fadder.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -119,20 +133,6 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	pipelined_fadder
-
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/regfile2w.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module regfile2w
-
-Top level modules:
-	regfile2w
-
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/scdatamem.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module scdatamem
-
-Top level modules:
-	scdatamem
 
 } {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/alu.v
 Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
@@ -147,12 +147,5 @@ Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 
 
 Top level modules:
 	scinstmem
-
-} {} {}} C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu.v {1 {vlog -work work -stats=none C:/Users/luzhi/Documents/GitHub/piplinedCPU/piplined_fpu_iu.v
-Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
--- Compiling module piplined_fpu_iu
-
-Top level modules:
-	piplined_fpu_iu
 
 } {} {}}
