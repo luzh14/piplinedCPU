@@ -29,6 +29,7 @@ wire i_sub = rtype& func[5]&~func[4]&~func[3]&~func[2]&func[1]&~func[0];
 wire i_and = rtype& func[5]&~func[4]&~func[3]&func[2]&~func[1]&~func[0];
 wire i_or = rtype& func[5]&~func[4]&~func[3]&func[2]&~func[1]&func[0];
 wire i_xor = rtype& func[5]&~func[4]&~func[3]&func[2]&func[1]&~func[0];
+wire i_sll = rtype& ~func[5]&~func[4]&~func[3]&~func[2]&~func[1]&~func[0];
 
  // i format 
 wire i_addi = ~op[5]&~op[4]& op[3]&~op[2]&~op[1]&~op[0];
@@ -46,7 +47,7 @@ wire i_beq = ~op[5]&~op[4]&~op[3]& op[2]&~op[1]&~op[0];
  wire i_fadd = ftype&~func[5]&~func[4]&~func[3]&~func[2]&~func[1]&~func[0];
 
  wire i_rs = i_add | i_sub | i_and | i_or | i_xor | i_addi | i_lw | i_sw | i_beq | i_lwc1 | i_swc1; 
- wire i_rt = i_add | i_sub | i_and | i_or | i_xor | i_sw | i_beq;
+ wire i_rt = i_add | i_sub | i_and | i_or | i_xor | i_sw | i_beq |i_sll;
 
  assign stall_lw = ewreg & em2reg & (ern != 0) & (i_rs & (ern == rs) | i_rt & (ern == rt)); 
 
@@ -79,18 +80,18 @@ wire i_beq = ~op[5]&~op[4]&~op[3]& op[2]&~op[1]&~op[0];
 end
 
 //generate control signals
- assign wreg = (i_add|i_sub|i_and|i_or|i_xor|i_addi|i_lw)&wpcir;
+ assign wreg = (i_add|i_sub|i_and|i_or|i_xor|i_addi|i_lw| i_sll)&wpcir;
  assign regrt = i_addi|i_lw|i_lwc1;
  assign m2reg = i_lw;
  assign aluimm = i_addi | i_lw | i_sw | i_lwc1 | i_swc1;
  assign sext = i_addi | i_lw | i_sw | i_beq | i_lwc1 | i_swc1;
  assign aluc[2] = i_sub|i_or|i_beq;
- assign aluc[1] = i_xor|i_beq;
- assign aluc[0] = i_and|i_or;
+ assign aluc[1] = i_xor|i_beq|i_sll ;
+ assign aluc[0] = i_and|i_or|i_sll ;
  assign wmem = (i_sw | i_swc1) & wpcir;
  assign pcsrc[1] = i_j;
  assign pcsrc[0] = i_beq & rsrtequ | i_j;
- assign shift = 0;
+ assign shift = i_sll;
  assign jal = 0;
 
  wire [2:0]fop;	//fpu control code
