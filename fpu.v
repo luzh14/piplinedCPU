@@ -8,22 +8,15 @@ input wf; // write fp regfile
 input ein1; // no_cache_stall 
 input ein2; // for canceling E1 inst 
 output [31:0] ed,wd; // wd: fp result 
-//output [4:0] count_div,count_sqrt; // for testing 
 output [4:0] e1n,e2n,e3n,wn; // reg numbers/
-//output [1:0] e1c,e2c,e3c; // for testing 
 output e1w,e2w,e3w,ww; // write fp regfile 
 output st_ds; // stall caused by fdiv or fsqrt 
 output e; // ein1 & ?st_ds 
 reg [31:0] wd; 
 reg [31:0] efa,efb; 
 reg [4:0] e1n,e2n,e3n,wn; 
-//reg [1:0] e1c,e2c,e3c; 
 reg e1w0,e2w,e3w,ww,sub; 
 wire [31:0] s_add;
-wire [25:0] reg_x_div,reg_x_sqrt;
-//wire busy_div,stall_div,busy_sqrt,stall_sqrt; 
-wire fdiv = fc[2] & fc[1];
-wire fsqrt = fc[2] & fc[1]; 
 assign e1w = e1w0 & ein2; 
 assign e = ein1;
 pipelined_fadder f_add (efa,efb,sub,2'b0,s_add,clk,clrn,e); 

@@ -1,5 +1,5 @@
 module iu (e1n,e2n,e3n, e1w,e2w,e3w, stall,st,dfb,e3d, 
-	       clk,memclk,clrn, fs,ft,wmo,wrn,wwfpr,mmo,fwdla,fwdlb,fwdfa,fwdfb,fd,fc,wf,fasmds, 
+	       clk,memclk,clrn, fs,ft,wmo,wrn,wwfpr,mmo,fwdla,fwdlb,fwdfa,fwdfb,fd,fc,wf, 
 	       pc,inst,ealu,malu,walu,stall_lw,stall_fp,stall_lwc1,stall_swc1); 
 input [31:0] dfb, e3d; 
 input [4:0] e1n, e2n, e3n; 
@@ -9,7 +9,7 @@ output [31:0] pc, inst, ealu, malu, walu;
 output [31:0] mmo, wmo; 
 output [4:0] fs, ft, fd, wrn; 
 output [2:0] fc; 
-output wwfpr, fwdla, fwdlb, fwdfa, fwdfb, wf, fasmds; 
+output wwfpr, fwdla, fwdlb, fwdfa, fwdfb, wf; 
 output stall_lw, stall_fp, stall_lwc1, stall_swc1; 
 
 
@@ -30,7 +30,7 @@ reg [3:0] ealuc;
 dffe32 program_counter (npc,clk,clrn,wpcir,pc); // pc 
 cla32 pc_plus4 (pc,32'h4,1'b0,pc4); // pc+4
 mux4x32 next_pc (pc4,bpc,da,jpc,pcsrc,npc); // next pc 
-scinstmem i_mem (pc,ins); // inst memory 
+instmem i_mem (pc,ins); // inst memory 
 dffe32 pc_4_r (pc4,clk,clrn,wpcir,dpc4); // pc+4 reg 
 dffe32 inst_r (ins,clk,clrn,wpcir,inst); // ir 
 wire swfp,regrt,sext,fwdf,fwdfe,wfpr; 
@@ -53,12 +53,12 @@ mux2x32 fwd_f_d (dc,e3d,fwdf,dd); // forward
 wire rsrtequ = ~|(da ^db);//(da == db) 
 mux2x5 des_reg_no (rd,rt,regrt,drn); // dest 
 iu_control cu(op,func,rs,rt,fs,ft,rsrtequ,ewfpr,ewreg, // control unit 
-				   em2reg,ern,mwfpr,mwreg,mm2reg,mrn,e1w, 
-				   e1n,e2w,e2n,e3w,e3n,stall,st,pcsrc,wpcir, 
-				   wreg,m2reg,wmem,jal,aluc,aluimm,shift, 
-				   sext,regrt,fwda,fwdb,swfp,fwdf,fwdfe,wfpr, 
-				   fwdla,fwdlb,fwdfa,fwdfb,fc,wf,fasmds, 
-				   stall_lw,stall_fp,stall_lwc1,stall_swc1);
+	      em2reg,ern,mwfpr,mwreg,mm2reg,mrn,e1w, 
+	      e1n,e2w,e2n,e3w,e3n,stall,st,pcsrc,wpcir, 
+	      wreg,m2reg,wmem,jal,aluc,aluimm,shift, 
+	      sext,regrt,fwda,fwdb,swfp,fwdf,fwdfe,wfpr, 
+	      fwdla,fwdlb,fwdfa,fwdfb,fc,wf,
+	      stall_lw,stall_fp,stall_lwc1,stall_swc1);
 always @(negedge clrn or posedge clk) // ID/EXE regs 
 	if (clrn) begin 
 		ewfpr <= 0; ewreg <= 0; 
@@ -98,7 +98,7 @@ always @(negedge clrn or posedge clk) // EXE/MEM regs
 		malu <= ealu; mb <= eb; 
 		mrn <= ern; 
 	end 
-scdatamem d_mem (memclk,mmo,mb,malu,mwmem); // data memory 
+datamem d_mem (memclk,mmo,mb,malu,mwmem); // data memory 
 //(memclk, mmo,mb,malu,mwmem)
 always @(negedge clrn or posedge clk) // MEM/WB regs 
 	if (clrn) begin 
