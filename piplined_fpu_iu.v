@@ -1,11 +1,12 @@
-module piplined_fpu_iu (clk,memclk,clrn,pc,inst,ealu,malu,walu,wn,wd,ww,stl_lw, 
+module piplined_fpu_iu (clk,memclk,clrn,mmo,pc,inst,ealu,malu,walu,wn,wd,ww,stl_lw, 
 					    stl_fp,stl_lwc1,stl_swc1,stl,e1n,e2n,e3n,e3d);
 input clk, memclk, clrn; // clocks and reset 
 output [31:0] pc, inst, ealu, malu, walu; 
 output [31:0] e3d, wd; 
 output [4:0] e1n, e2n, e3n, wn; 
 output ww, stl_lw, stl_fp, stl_lwc1, stl_swc1, stl; 
-wire [31:0] qfa,qfb,fa,fb,dfa,dfb,mmo,wmo; // for iu 
+output [31:0]mmo;
+wire [31:0] qfa,qfb,fa,fb,dfa,dfb,wmo; // for iu 
 wire [4:0] fs,ft,fd,wrn; 
 wire [2:0] fc; 
 wire [1:0] e1c,e2c,e3c; // for fpu 

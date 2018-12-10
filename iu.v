@@ -59,7 +59,7 @@ iu_control cu(op,func,rs,rt,fs,ft,rsrtequ,ewfpr,ewreg, // control unit
 	      sext,regrt,fwda,fwdb,swfp,fwdf,fwdfe,wfpr, 
 	      fwdla,fwdlb,fwdfa,fwdfb,fc,wf,
 	      stall_lw,stall_fp,stall_lwc1,stall_swc1);
-always @(negedge clrn or posedge clk) // ID/EXE regs 
+always @(posedge clk) // ID/EXE regs 
 	if (clrn) begin 
 		ewfpr <= 0; ewreg <= 0; 
 		em2reg <= 0; ewmem <= 0; 
@@ -86,7 +86,7 @@ mux2x32 save_pc8 (ealu0,epc8,ejal,ealu); // pc+8 if jal
 alu al_unit (alua,alub,ealuc,ealu0,z); // alu 
 assign ern = ern0 | {5{ejal}}; // $31 for jal 
 mux2x32 fwd_f_e (ed,e3d,efwdfe,eb); // forward 
-always @(negedge clrn or posedge clk) // EXE/MEM regs 
+always @(posedge clk) // EXE/MEM regs 
 	if (clrn) begin 
 		mwfpr <= 0; mwreg <= 0; 
 		mm2reg <= 0; mwmem <= 0; 
@@ -100,7 +100,7 @@ always @(negedge clrn or posedge clk) // EXE/MEM regs
 	end 
 datamem d_mem (memclk,mmo,mb,malu,mwmem); // data memory 
 //(memclk, mmo,mb,malu,mwmem)
-always @(negedge clrn or posedge clk) // MEM/WB regs 
+always @(posedge clk) // MEM/WB regs 
 	if (clrn) begin 
 		wwfpr <= 0; wwreg <= 0; 
 		wm2reg <= 0; wmo <= 0; 
